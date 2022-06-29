@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+
+body{
+    background-color: #11CFCF;
+    text-transform: ;
+    color: aliceblue;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.test-form input[type='text']
+{
+  padding:10px;
+  font-size:1.2em;
+}
+
+.test-form input[type='submit']
+{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+h1 {
+    text-align: center;
+    font: normal bold 35px/40px tahoma ;
+    margin: 60px auto;
+}
+
+.container form {
+    width: 35%;
+    display: inline-block;
+}
+
+.container form input , textarea {
+    width: 100%;
+    display: block;
+    background-color: aliceblue;
+    border:none;
+    border-radius: 5px;    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px 10px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    color: dimgrey;
+}
+
+.container form .parallel {
+    display: inline;
+    width: 48%;
+}
+.container form .one {
+    margin-right: 4%;
+}
+
+.container form .input_width {
+    width: 70%;
+}
+
+
+.container form textarea {
+    resize: none;
+}
+
+.container form .submit_style {
+    width: 40%;
+    background-color: #FEE93E;
+    margin-left: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    color: dimgrey;
+    text-transform: uppercase;
+}
+
+.container section {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-top:6% ;
+    padding: 20px; 
+}
+
+
+.container section h2 {
+    font-weight: normal;
+    font-size: 34px;
+}
+
+.container section p{
+    margin: 20px 0 50px;
+}
+
+.container section a {
+    display: block;
+    text-decoration: none;
+    color: #FEE93E;
+}
+
+.container section ul {
+    list-style-position: inside;
+    
+}
